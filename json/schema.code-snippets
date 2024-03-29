@@ -1,0 +1,182 @@
+{
+  "js_schema_text_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_text",
+    "body": [
+      "{",
+      "  \"type\": \"text\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"default\": \"$3\",",
+      "},"
+    ],
+    "description": "Schema text"
+  },
+  "js_schema_textarea_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_textarea",
+    "body": [
+      "{",
+      "  \"type\": \"textarea\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"default\": \"<p>$3</p>\",",
+      "},"
+    ],
+    "description": "Schema textarea"
+  },
+  "js_schema_richtext_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_richtext",
+    "body": [
+      "{",
+      "  \"type\": \"richtext\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"default\": \"<p>$3</p>\",",
+      "},"
+    ],
+    "description": "Schema richtext"
+  },
+  "js_schema_url_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_url",
+    "body": [
+      "{",
+      "  \"type\": \"url\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "},"
+    ],
+    "description": "Schema url"
+  },
+  "js_schema_checkbox_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_checkbox",
+    "body": [
+      "{",
+      "  \"type\": \"checkbox\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"default\": $3true,",
+      "},"
+    ],
+    "description": "Schema checkbox"
+  },
+  "js_schema_number_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_number",
+    "body": [
+      "{",
+      "  \"type\": \"number\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"default\": 0",
+      "},"
+    ],
+    "description": "Schema number"
+  },
+  "js_schema_range_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_range",
+    "body": [
+      "{",
+      "  \"type\": \"range\",",
+      "  \"id\": \"0$1\",",
+      "  \"min\": 0$2,",
+      "  \"max\": 0$3,",
+      "  \"step\": 0$4,",
+      "  \"unit\": \"$5\",",
+      "  \"label\": \"t:$6\",",
+      "  \"default\": 0$7,",
+      "},"
+    ],
+    "description": "Schema range"
+  },
+  "js_schema_radio_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_radio",
+    "body": [
+      "{",
+      "  \"type\": \"radio\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"options\": [",
+      "    {",
+      "      \"value\": \"$3\",",
+      "      \"label\": \"t:$4\",",
+      "    },",
+      "    {",
+      "      \"value\": \"$5\",",
+      "      \"label\": \"t:$6\",",
+      "    }",
+      "  ],",
+      "  \"default\": \"$7\",",
+      "},"
+    ],
+    "description": "Schema radio,"
+  },
+  "js_schema_select_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_select",
+    "body": [
+      "{",
+      "  \"type\": \"select\",",
+      "  \"id\": \"$1\",",
+      "  \"label\": \"t:$2\",",
+      "  \"options\": [",
+      "    {",
+      "      \"value\": \"$3\",",
+      "      \"label\": \"t:$4\",",
+      "    },",
+      "    {",
+      "      \"value\": \"$5\",",
+      "      \"label\": \"t:$6\",",
+      "    },",
+      "  ],",
+      "  \"default\": \"$7\",",
+      "},"
+    ],
+    "description": "Schema select"
+  },
+  "js_schema_header_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_header",
+    "body": ["{", "  \"type\": \"header\",", "  \"content\": \"t:$1\",", "},"],
+    "description": "Schema header"
+  },
+  "js_schema_paragraph_snippet": {
+    "scope": "javascript",
+    "prefix": "schema_paragraph",
+    "body": [
+      "{",
+      "  \"type\": \"paragraph\",",
+      "  \"content\": \"t:$1\",",
+      "},"
+    ],
+    "description": "Schema paragraph"
+  },
+  "json_schema_content_snippet": {
+    "scope": "json",
+    "prefix": "json_content",
+    "body": ["\"$1\": {", "  \"content\": \"$2\"", "},"],
+    "description": "Schema json content"
+  },
+  "json_schema_label_snippet": {
+    "scope": "json",
+    "prefix": "json_label",
+    "body": ["\"$1\": {", "  \"label\": \"$2\"", "},"],
+    "description": "Schema json label"
+  },
+  "json_schema_label_with_options_snippet": {
+    "scope": "json",
+    "prefix": "json_label_with_options",
+    "body": [
+      "\"$1\": {",
+      "  \"label\": \"$2\",",
+      "  \"optio$3\": \"$4\"",
+      "},"
+    ],
+    "description": "Schema json label"
+  }
+}

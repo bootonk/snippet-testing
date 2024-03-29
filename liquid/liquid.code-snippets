@@ -1,0 +1,26 @@
+{
+  "css_above_media_query_snippet": {
+    "scope": "css",
+    "prefix": "above",
+    "body": ["@media (--above-$1) {", "  $2", "}"],
+    "description": "media query above"
+  },
+  "css_below_media_query_snippet": {
+    "scope": "css",
+    "prefix": "below",
+    "body": ["@media (--below-$1) {", "  $2", "}"],
+    "description": "media query below"
+  },
+  "css_variable_snippet": {
+    "scope": "css",
+    "prefix": "var",
+    "body": ["var($1);"],
+    "description": "Variable"
+  },
+  "css_hover": {
+    "scope": "css",
+    "prefix": "hover",
+    "body": ["@media (hover: hover) {", "  $2", "}"],
+    "description": "Only devices that allow hover"
+  }
+}

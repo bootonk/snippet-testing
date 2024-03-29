@@ -1,0 +1,8 @@
+{
+  "js_console_log_verbose_snippet": {
+    "scope": "javascript",
+    "prefix": "slog",
+    "body": ["console.log('$1 -- ', $1);"],
+    "description": "Verbose console log"
+  }
+}
